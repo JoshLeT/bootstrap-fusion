@@ -1,6 +1,37 @@
 body {
   background-color: black;
 }
+
+.sticky-top {
+  z-index: 10;
+  background-color: black;
+}
+
+.social-top {
+  display: flex;
+  justify-content: center;
+}
+
+.social-top a {
+  padding-left: 12px;
+  color: white;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.social-top a:hover {
+  color: lightblue;
+}
+
+.nav-item a {
+  color: white;
+  transition: all 0.3s ease-out;
+}
+
+.nav-item a:hover {
+  color: red;
+}
+
 .features h1 {
   color: white;
   text-align: center;
@@ -9,4 +40,7 @@ body {
 }
 .card-title {
   text-align: center;
+}
+.fixed-bottom span{
+  color: white;
 }
