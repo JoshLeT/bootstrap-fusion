@@ -70,6 +70,20 @@ body {
   text-align: center;
   }
 
-  .footer-bottom span a{
-    color: white;
-    }
+.footer-bottom span a{
+  color: white;
+  }
+
+form legend {
+  text-align: center;
+  color: white;
+  padding-top: 12px;
+}
+
+.form-group {
+  color: white;
+}
+
+#success_message{
+  display: none;
+}
