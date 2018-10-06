@@ -44,3 +44,32 @@ body {
 .fixed-bottom span{
   color: white;
 }
+
+.mailing-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mailing-list h2 {
+  margin-top: 24px;
+  color: black;
+  text-align: center;
+  background-color: white;
+  border-radius: 24px;
+  padding: 12px;
+}
+
+.mailing-list h2:hover {
+  color: white;
+  background-color: lightblue;
+  }
+
+.footer-bottom {
+  color: white;
+  text-align: center;
+  }
+
+  .footer-bottom span a{
+    color: white;
+    }
