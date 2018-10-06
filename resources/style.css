@@ -23,6 +23,10 @@ body {
   color: lightblue;
 }
 
+.nav-link active {
+  background-color: red;
+}
+
 .nav-item a {
   color: white;
   transition: all 0.3s ease-out;
@@ -78,6 +82,11 @@ form legend {
   text-align: center;
   color: white;
   padding-top: 12px;
+}
+
+form p, form p a {
+  text-align: center;
+  color: white;
 }
 
 .form-group {
