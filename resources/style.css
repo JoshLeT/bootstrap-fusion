@@ -123,6 +123,15 @@ form p, form p a {
 
 /* Hire Styling */
 
+.hire h1, p {
+  color: white;
+  text-align: center;
+}
+
+.download-forms {
+  margin-bottom: 24px;
+}
+
 .download-forms h1 {
   color: white;
   text-align: center;
