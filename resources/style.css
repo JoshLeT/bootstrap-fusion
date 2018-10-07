@@ -1,8 +1,19 @@
+/* General Styling */
+
 body {
   background-color: black;
 }
 
+.logo-top img {
+  width: 64px;
+  height: auto;
+  margin-top: 12px;
+  margin-left: 12px;
+  text-align: center;
+}
+
 .sticky-top {
+  position: relative;
   z-index: 10;
   background-color: black;
 }
@@ -10,6 +21,8 @@ body {
 .social-top {
   display: flex;
   justify-content: center;
+  height: 32px;
+  position: relative;
 }
 
 .social-top a {
@@ -23,8 +36,10 @@ body {
   color: lightblue;
 }
 
-.nav-link active {
-  background-color: red;
+.menu-top {
+  height: 48px;
+  margin-top: 12px;
+  pos
 }
 
 .nav-item a {
@@ -35,6 +50,22 @@ body {
 .nav-item a:hover {
   color: red;
 }
+
+#nav-menu-active {
+  color: grey;
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  color: white;
+  text-align: center;
+  }
+
+.footer-bottom span a{
+  color: white;
+  }
+
+/* Home Styling */
 
 .features h1 {
   color: white;
@@ -66,17 +97,10 @@ body {
 
 .mailing-list h2:hover {
   color: white;
-  background-color: lightblue;
+  background-color: red;
   }
 
-.footer-bottom {
-  color: white;
-  text-align: center;
-  }
-
-.footer-bottom span a{
-  color: white;
-  }
+/* Contact Styling */
 
 form legend {
   text-align: center;
@@ -95,4 +119,23 @@ form p, form p a {
 
 #success_message{
   display: none;
+}
+
+/* Hire Styling */
+
+.download-forms h1 {
+  color: white;
+  text-align: center;
+}
+
+.download-forms button {
+  margin-top: 12px;
+  margin-left: 12px;
+}
+
+.download-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
