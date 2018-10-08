@@ -11,6 +11,12 @@ body {
   margin-left: 12px;
   text-align: center;
 }
+
+.logo-top span {
+  color: white;
+  float: right;
+  margin-top: 24px;
+}
 .sticky-top {
   position: relative;
   z-index: 10;
@@ -99,6 +105,76 @@ body {
   background-color: red;
   }
 
+  /* About Styling */
+
+.about-us h1{
+  text-align: center;
+  color: white;
+}
+
+.about-us p, .about-us li {
+  color: white;
+}
+
+  /* Hire Styling */
+
+  .hire h1, .hire p {
+    color: white;
+  }
+
+  .hire h1 {
+    text-align: center;
+  }
+
+  .hire a {
+    color: white;
+    text-decoration: underline;
+  }
+
+  .hire a:hover {
+    color: green;
+  }
+
+  .hire {
+    margin-bottom: 24px;
+  }
+
+  .hire img {
+    margin-bottom: 12px;
+  }
+
+  .hire-clients {
+    margin-bottom: 24px;
+  }
+
+  .download-forms {
+    margin-bottom: 24px;
+  }
+
+  .download-forms h1 {
+    color: white;
+    text-align: center;
+  }
+
+  .download-forms button {
+    margin-top: 12px;
+    margin-left: 12px;
+    transition: all 0.4s ease-out;
+  }
+
+  .download-forms button:hover {
+    color: white;
+    text-decoration: underline;
+    background-color: green;
+  }
+
+  .download-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
 /* Contact Styling */
 
 form legend {
@@ -118,63 +194,4 @@ form p, form p a {
 
 #success_message{
   display: none;
-}
-
-/* Hire Styling */
-
-.hire h1, .hire p {
-  color: white;
-}
-
-.hire h1 {
-  text-align: center;
-}
-
-.hire a {
-  color: white;
-  text-decoration: underline;
-}
-
-.hire a:hover {
-  color: green;
-}
-
-.hire {
-  margin-bottom: 24px;
-}
-
-.hire img {
-  margin-bottom: 12px;
-}
-
-.hire-clients {
-  margin-bottom: 24px;
-}
-
-.download-forms {
-  margin-bottom: 24px;
-}
-
-.download-forms h1 {
-  color: white;
-  text-align: center;
-}
-
-.download-forms button {
-  margin-top: 12px;
-  margin-left: 12px;
-  transition: all 0.4s ease-out;
-}
-
-.download-forms button:hover {
-  color: white;
-  text-decoration: underline;
-  background-color: green;
-}
-
-.download-buttons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
 }
