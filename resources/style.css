@@ -11,7 +11,6 @@ body {
   margin-left: 12px;
   text-align: center;
 }
-
 .sticky-top {
   position: relative;
   z-index: 10;
@@ -123,9 +122,33 @@ form p, form p a {
 
 /* Hire Styling */
 
-.hire h1, p {
+.hire h1, .hire p {
   color: white;
+}
+
+.hire h1 {
   text-align: center;
+}
+
+.hire a {
+  color: white;
+  text-decoration: underline;
+}
+
+.hire a:hover {
+  color: green;
+}
+
+.hire {
+  margin-bottom: 24px;
+}
+
+.hire img {
+  margin-bottom: 12px;
+}
+
+.hire-clients {
+  margin-bottom: 24px;
 }
 
 .download-forms {
@@ -140,6 +163,13 @@ form p, form p a {
 .download-forms button {
   margin-top: 12px;
   margin-left: 12px;
+  transition: all 0.4s ease-out;
+}
+
+.download-forms button:hover {
+  color: white;
+  text-decoration: underline;
+  background-color: green;
 }
 
 .download-buttons {
