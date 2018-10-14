@@ -75,7 +75,7 @@
   <div class="col-md-4 inputGroupContainer">
   <div class="input-group">
   <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-  <input  name="name" placeholder="Your Name" class="form-control"  type="text">
+  <input  name="name" placeholder="Your Name" class="form-control"  type="text" required>
     </div>
   </div>
 </div>
@@ -86,7 +86,7 @@
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-  <input name="email" placeholder="Your E-Mail Address" class="form-control"  type="text">
+  <input name="email" placeholder="Your E-Mail Address" class="form-control"  type="text" required>
     </div>
   </div>
 </div>
@@ -97,13 +97,12 @@
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
     <select name="subject" class="form-control selectpicker" >
-      <option value=" " >Select a subject</option>
+      <option value="Other" >Other</option>
       <option>Children's Party</option>
       <option>Event Information</option>
       <option>Hire Luna</option>
       <option>Job Vacancy</option>
       <option>Lost Property</option>
-      <option>Other</option>
     </select>
   </div>
 </div>
@@ -116,7 +115,7 @@
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-        	<textarea class="form-control" name="comment" placeholder="Message"></textarea>
+        	<textarea class="form-control" name="comment" placeholder="Message" required></textarea>
   </div>
   </div>
 </div>
