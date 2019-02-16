@@ -148,6 +148,10 @@ body {
   background-color: red;
   }
 
+  #index-card {
+    color: black;
+  }
+
   /* About Styling */
 
 .about-us h1{
@@ -158,6 +162,8 @@ body {
 .about-us p, .about-us li {
   color: white;
 }
+
+
 
   /* Hire Styling */
 
